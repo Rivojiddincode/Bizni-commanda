@@ -1,5 +1,5 @@
 import React from 'react'
-import Fullproduct from './components/Productdetailpage/Fullproduct/Fullproduct'
+import Fullproduct from './components/Productdetailpage/NewProduct/Fullproduct'
 
 const App = () => {
   return (
