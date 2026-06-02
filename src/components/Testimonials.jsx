@@ -28,7 +28,7 @@ export default function Testimonials() {
         {reviewsData.map((review) => (
           <div 
             key={review.id} 
-            className="min-w-[340px] sm:min-w-[400px] bg-white border border-black/10 rounded-[20px] p-7 md:p-8 flex flex-col gap-3.5 snap-start"
+            className="min-w-85 sm:min-w-100 bg-white border border-black/10 rounded-[20px] p-7 md:p-8 flex flex-col gap-3.5 snap-start"
           >
             
             

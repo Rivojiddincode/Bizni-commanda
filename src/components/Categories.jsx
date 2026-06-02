@@ -1,5 +1,5 @@
 import Cs from "../assets/svg/cs.svg";
-import Formal from "../assets/png/formal.png";
+import Formal from "../assets/png/jens.png";
 import { NavLink } from 'react-router-dom'
 function Categories() {
   return (

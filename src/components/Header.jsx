@@ -13,9 +13,9 @@ function Header() {
         </div>
         {/* nav */}
         <div className="flex gap-6 ml-10 ">
-          <select className="cursor-pointer  outline-none text-[16px] text-[#000000] font-satoshi font-normal">
+          <NavLink to="/shop"><select className="cursor-pointer  outline-none text-[16px] text-[#000000] font-satoshi font-normal">
             <option value="Shop">Shop</option>
-          </select>
+          </select></NavLink>
           <p className="cursor-pointer text-[16px] text-[#000000] font-satoshi font-normal">On Sale</p>
           <p className="cursor-pointer text-[16px] text-[#000000] font-satoshi font-normal">New Arrivals</p>
           <p className="cursor-pointer text-[16px] text-[#000000] font-satoshi font-normal">Brands</p>

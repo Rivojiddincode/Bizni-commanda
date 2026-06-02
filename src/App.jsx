@@ -1,25 +1,25 @@
-<<<<<<< HEAD
-import Home from "./pages/Home"
-function App() {
-  return (
-    <div>
-  <Home/>
-
-=======
-import React from 'react'
-import Fullproduct from './components/Productdetailpage/NewProduct/Fullproduct'
+import Cart from "./pages/islom/Cart"
+import Category from "./pages/islom/Category";
+import Home from './pages/Home'
+import { Route, Routes } from "react-router-dom";
+import Fullproduct from "./components/Productdetailpage/NewProduct/Fullproduct";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div>
-        <Fullproduct />
->>>>>>> f987e26b80f6e46953db34e65a85f92f516d31af
+      <Routes>
+           <Header />
+          <Route path="/home" element={<Home />} />
+           <Route path="/cart" element={<Cart/>} />
+            <Route path="/category" element={<Category/>} />
+            <Route path="/fullproduct" element={<Fullproduct/>} />
+            <Footer />
+        </Routes>
+      
     </div>
   )
 }
 
-<<<<<<< HEAD
 export default App
-=======
-export default App
->>>>>>> f987e26b80f6e46953db34e65a85f92f516d31af

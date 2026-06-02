@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Islom2.css"
 
-const Islom2 = () => {
+const Cart = () => {
   const [currentView, setCurrentView] = useState('cart')
   const [cartItems, setCartItems] = useState([
     { id: 1, name: 'Gradient Graphic T-shirt', price: 145, size: 'Large', color: 'White', img: 'product1.jpg', quantity: 1 },
@@ -173,4 +173,4 @@ const Islom2 = () => {
   )
 }
 
-export default Islom2
+export default Cart

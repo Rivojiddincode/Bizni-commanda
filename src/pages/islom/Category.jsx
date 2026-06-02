@@ -1,7 +1,8 @@
 import React from 'react'
 import './Islom.css'
+import { NavLink } from 'react-router-dom';
 
-const Islom = () => {
+const Category = () => {
   const products = [
     { id: 1, name: 'Gradient Graphic T-shirt', price: '$145', rating: 3.55, image: 'product1.jpg' },
     { id: 2, name: 'Polo with Tipping Details', price: '$180', rating: 4.65, image: 'product2.jpg' },
@@ -76,7 +77,7 @@ const Islom = () => {
 
         <div className="products-grid">
           {products.map((product) => (
-            <div key={product.id} className="product-card">
+          <NavLink  to="/cart"> <div key={product.id} className="product-card">
               <div className="product-image">
                 <img src={product.image} alt={product.name} />
               </div>
@@ -93,11 +94,12 @@ const Islom = () => {
                 </div>
               </div>
             </div>
+</NavLink>
           ))}
-        </div>
+        </div> 
       </div>
     </div>
   )
 }
 
-export default Islom
+export default Category
