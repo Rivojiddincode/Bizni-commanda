@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Islom2.css"
 
 const Cart = () => {
@@ -52,13 +52,13 @@ const Cart = () => {
   return (
     <div>
       <div className="nav-bar">
-        <button 
+        <button
           className={currentView === 'products' ? 'active' : ''}
           onClick={() => setCurrentView('products')}
         >
           Products
         </button>
-        <button 
+        <button
           className={currentView === 'cart' ? 'active' : ''}
           onClick={() => setCurrentView('cart')}
         >
@@ -109,7 +109,7 @@ const Cart = () => {
                 cartItems.map(item => (
                   <div key={item.id} className="cart-item">
                     <img src={item.img} alt={item.name} className="item-img" />
-                    
+
                     <div className="item-details">
                       <h3>{item.name}</h3>
                       <p className="item-info">Size: {item.size}</p>
@@ -155,8 +155,8 @@ const Cart = () => {
               </div>
 
               <div className="promo-section">
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   placeholder="Add promo code"
                   value={promoCode}
                   onChange={(e) => setPromoCode(e.target.value)}

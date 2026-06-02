@@ -36,14 +36,14 @@
 }
 
 /* 3. Grid Struktura (Moslashuvchan) */
-.product-grid {
+.product-grid1 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
 @media (min-width: 768px) {
-  .product-grid {
+  .product-grid1 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 }

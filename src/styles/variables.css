@@ -1,0 +1,40 @@
+:root {
+  --font-satoshi: 'Satoshi', sans-serif;
+  --font-integral: 'Integral CF', sans-serif;
+
+  --black: #000000;
+  --white: #ffffff;
+  --gray-light: #F0F0F0;
+  --gray-dark: #666666;
+  --gray-transparent: rgba(0, 0, 0, 0.1);
+  
+  --red: #FF3333;
+  --red-light: #FFECEF;
+  
+  --container-max-width: 1240px;
+  --padding-x: 100px;
+  --padding-x-mobile: 20px;
+  
+  --transition-short: 0.3s ease;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/fonts/IntegralCF-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}

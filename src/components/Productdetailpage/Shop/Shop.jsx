@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // 1. useState import qilindi
+import { useState } from 'react'; // 1. useState import qilindi
 import './Shop.css';
 
 // 2. Rasmlar importi (assets papkasidan)

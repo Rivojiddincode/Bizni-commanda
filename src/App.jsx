@@ -3,7 +3,6 @@ import Category from "./pages/islom/Category";
 import Home from './pages/Home'
 import { Route, Routes, Navigate } from "react-router-dom";
 import Fullproduct from "./components/Productdetailpage/NewProduct/Fullproduct";
-import Shop from "./components/Productdetailpage/Shop/Shop";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 

@@ -1,0 +1,39 @@
+.brands-container {
+    width: 100%;
+    background-color: var(--black);
+    padding: 42px var(--padding-x);
+}
+
+.brands-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.brands-content img {
+    height: 32px;
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width: 1024px) {
+    .brands-container {
+        padding: 30px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .brands-container {
+        padding: 30px var(--padding-x-mobile);
+    }
+
+    .brands-content {
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .brands-content img {
+        height: 24px;
+    }
+}

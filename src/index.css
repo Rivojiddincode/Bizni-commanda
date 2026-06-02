@@ -1,5 +1,6 @@
 /* @import url('https://fontshare.com[]=satoshi@1,2&display=swap') */
-@import "tailwindcss";
+@import './styles/global.css';
+
 :root {
   --background-image-hero-pattern: url('./assets/png/background.png');
 }

@@ -1,20 +1,24 @@
 import Cs from "../assets/svg/cs.svg";
 import Formal from "../assets/png/jens.png";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import "./Categories.css";
+
 function Categories() {
   return (
-    <div className='w-full p10 flex items-center'>
-        <div className='w-305 ml-34 bg-[#F0F0F0] rounded-[40px] flex flex-col p-16'>
-   <p className='text-[48px] text-[#000000] font-extrabold text-center'>BROWSE BY DRESS STYLE</p>
-   <div className="flex  gap-5 mt-2">
- <NavLink to="/Category" className="block">
-      <img src={Cs} alt="mahsulot" />
-    </NavLink>
-    <img src={Formal} alt="" />
-   </div>
+    <div className="categories-wrapper">
+      <div className="categories-container">
+        <h2 className="categories-title">BROWSE BY DRESS STYLE</h2>
+        <div className="categories-grid">
+          <NavLink to="/Category" className="category-card">
+            <img src={Cs} alt="Casual Style" />
+          </NavLink>
+          <div className="category-card">
+            <img src={Formal} alt="Formal Style" />
+          </div>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Categories
+export default Categories;
