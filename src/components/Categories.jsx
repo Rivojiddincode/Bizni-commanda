@@ -7,7 +7,7 @@ function Categories() {
         <div className='w-305 ml-34 bg-[#F0F0F0] rounded-[40px] flex flex-col p-16'>
    <p className='text-[48px] text-[#000000] font-extrabold text-center'>BROWSE BY DRESS STYLE</p>
    <div className="flex  gap-5 mt-2">
- <NavLink to="/Casual" className="block">
+ <NavLink to="/Category" className="block">
       <img src={Cs} alt="mahsulot" />
     </NavLink>
     <img src={Formal} alt="" />

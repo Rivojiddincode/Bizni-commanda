@@ -8,7 +8,7 @@ import Categories from '../components/Categories'
 
 function Home() {
     return (
-        <div>
+        <div >
          
             <Hero />
             <Brands />

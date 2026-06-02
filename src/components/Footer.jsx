@@ -4,7 +4,7 @@ import Visa from "../assets/icons/visa.svg";
 function Footer() {
     return (
         <div className="bg-[#F0F0F0] h-125 pl-25.25 pb-12.5">
-            <footer className="w-full pt-35  flex gap-[113.5px] pb-15 items-start border-b-2 border-b-[#0000001A]">
+            <footer className="w-full pt-35 p-5  flex gap-[113.5px] pb-15 items-start border-b-2 border-b-[#0000001A]">
                 {/* 1 */}
                 <div className="flex flex-col gap-6.25">
                     <img  className="w-41.75 h-5.75 cursor-pointer"  src={shopLogo} alt="shopLogo" />

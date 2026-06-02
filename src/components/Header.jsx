@@ -9,11 +9,11 @@ function Header() {
       <header className="flex w-full pt-6 pl-25 pr-25 items-center">
         {/* logo */}
         <div className="flex">
-          <img className="cursor-pointer" src={shopLogo} alt="Shop-logotip" />
+          <NavLink to="/"><img className="cursor-pointer" src={shopLogo} alt="Shop-logotip" /></NavLink>
         </div>
         {/* nav */}
         <div className="flex gap-6 ml-10 ">
-          <NavLink to="/shop"><select className="cursor-pointer  outline-none text-[16px] text-[#000000] font-satoshi font-normal">
+          <NavLink to="/fullproduct"><select className="cursor-pointer  outline-none text-[16px] text-[#000000] font-satoshi font-normal">
             <option value="Shop">Shop</option>
           </select></NavLink>
           <p className="cursor-pointer text-[16px] text-[#000000] font-satoshi font-normal">On Sale</p>
